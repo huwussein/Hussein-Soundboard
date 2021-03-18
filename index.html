@@ -1,0 +1,156 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SoundBoard</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Sounds -->
+
+    <audio id="a">
+      <source src="sounds/jeff.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="b">
+      <source src="sounds/jojo.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="c">
+      <source src="sounds/air-horn.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="d">
+      <source src="sounds/laugh.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="e">
+      <source src="sounds/trap.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="f">
+      <source src="sounds/wrong.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="g">
+      <source src="sounds/wah.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="h">
+      <source src="sounds/gnomed.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="i">
+      <source src="sounds/okay.mp3" type="audio/mpeg">
+    </audio>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">SoundBoard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" target="__blank" href="https://github.com/huwussein">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" target="__blank" href="https://dawasry.nl">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <br><br>
+
+  <div class="container marketing">
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/jeff.jfif" width="140px" height="140px"> 
+        <h2>My name is Jeff</h2>
+        <button class="btn btn-secondary" onclick="sound1()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/jojo.jpg" width="140px" height="140px"> 
+        <h2>JoJo</h2>
+        <button class="btn btn-secondary" onclick="sound2()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/air-horn.jpg" width="140px" height="140px"> 
+        <h2>Air-Horn</h2>
+        <button class="btn btn-secondary" onclick="sound3()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/laugh.jpg" width="140px" height="140px"> 
+        <h2>Laugh</h2>
+        <button class="btn btn-secondary" onclick="sound4()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/trap.jpg" width="140px" height="140px"> 
+        <h2>It's a Trap!</h2>
+        <button class="btn btn-secondary" onclick="sound5()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/wrong.png" width="140px" height="140px"> 
+        <h2>Wrong!</h2>
+        <button class="btn btn-secondary" onclick="sound6()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/waa.jpg" width="140px" height="140px"> 
+        <h2>Wa</h2>
+        <button class="btn btn-secondary" onclick="sound7()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/Gnomed.jpg" width="140px" height="140px"> 
+        <h2>Gnomed</h2>
+        <button class="btn btn-secondary" onclick="sound8()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="images/okay.jpg" width="140px" height="140px"> 
+        <h2>Okay</h2>
+        <button class="btn btn-secondary" onclick="sound9()" type="button">play ▶️</button>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <hr class="featurette-divider">
+
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p><a href="https://dawasry.nl" target="__blank">Dawasry.nl</a></p>
+  </footer>
+</main>
+
+
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/sounds.js"></script>
+      
+  </body>
+</html>
