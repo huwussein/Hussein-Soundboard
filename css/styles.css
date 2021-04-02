@@ -2,17 +2,27 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+
+
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #ffffff;
-    background-color: #2B3E50;
+  }
+  
+  .dark-mode {
+    background-color: rgba(8, 8, 48, 0.884);
+    color: white;
   }
 
   a{
-      color:#ffffff;
+      color:#ff0000;
       text-decoration: underline;
   }
+
+  .pointer {cursor: pointer;}
   
   
   /* MARKETING CONTENT
